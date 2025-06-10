@@ -1,0 +1,23 @@
+[
+  {
+    "Ad": "Shzany",
+    "Soyad": "G\u00FCne\u015F",
+    "TcNo": "12312312312",
+    "Cinsiyet": "Erkek",
+    "Sifre": "1234"
+  },
+  {
+    "Ad": "ziya",
+    "Soyad": "ekiz",
+    "TcNo": "123",
+    "Cinsiyet": "Erkek",
+    "Sifre": "ekiz"
+  },
+  {
+    "Ad": "ahmet",
+    "Soyad": "mehmet",
+    "TcNo": "123",
+    "Cinsiyet": "Erkek",
+    "Sifre": "123"
+  }
+]

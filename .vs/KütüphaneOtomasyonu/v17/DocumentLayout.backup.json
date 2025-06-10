@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|c:\\users\\shzany\\source\\repos\\kutuphaneotomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\\u00E7al\u0131\u015Fanekran\u0131.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\veriisleyici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\veriisleyici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\anaekran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\anaekran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\k\u00FCt\u00FCphaneotomasyonu\\anaekran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEB25D62-1A71-488B-B1A5-1020383845C1}|K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu.csproj|solutionrelative:k\u00FCt\u00FCphaneotomasyonu\\anaekran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl3.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:47:51.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u00C7al\u0131\u015FanEkran\u0131.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.Designer.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.Designer.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAPUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:30:15.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControl6.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAWwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:36:56.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAA1wMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:04:21.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u00C7al\u0131\u015FanEkran\u0131.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\\u00C7al\u0131\u015FanEkran\u0131.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:04:12.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControl8.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl8.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl8.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl8.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl8.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:56.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VeriIsleyici.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\VeriIsleyici.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\VeriIsleyici.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\VeriIsleyici.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\VeriIsleyici.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:48:39.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserControl6.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl6.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:54.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl3.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:47:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserControl5.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl5.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl5.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl5.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl5.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:53.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserControl4.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl4.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl4.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl4.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl4.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:49.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserControl9.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl9.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl9.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl9.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl9.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:57.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserControl7.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl7.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl7.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl7.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl7.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:34:55.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserControl3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.Designer.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl3.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAYwGYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:33:30.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserControl2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.Designer.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:30:36.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Uye.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\Uye.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\Uye.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\Uye.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\Uye.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:48:37.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserControl2.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:30:47.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Kitap.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\Kitap.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\Kitap.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\Kitap.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\Kitap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:06:29.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserControl2.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl2.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:30:43.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserControl1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:40:29.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserControl1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.Designer.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.Designer.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.Designer.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.Designer.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:04:21.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\UserControl1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:07:17.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AnaEkran.cs",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:19:00.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AnaEkran.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "RelativeDocumentMoniker": "K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs",
+              "ToolTip": "C:\\Users\\shzany\\source\\repos\\KutuphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs [Tasar\u0131m]",
+              "RelativeToolTip": "K\u00FCt\u00FCphaneOtomasyonu\\AnaEkran.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T22:18:54.732Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

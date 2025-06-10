@@ -1,0 +1,28 @@
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+
+namespace KütüphaneOtomasyonu
+{
+    public static class VeriIsleyici
+    {
+        private static readonly string dosyaYolu = "uyeler.json";
+
+        public static void UyeEkle(Uye uye)
+        {
+            List<Uye> uyeler = UyeleriYukle();
+            uyeler.Add(uye);
+            string json = JsonSerializer.Serialize(uyeler, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(dosyaYolu, json);
+        }
+
+        public static List<Uye> UyeleriYukle()
+        {
+            if (!File.Exists(dosyaYolu))
+                return new List<Uye>();
+
+            string json = File.ReadAllText(dosyaYolu);
+            return JsonSerializer.Deserialize<List<Uye>>(json) ?? new List<Uye>();
+        }
+    }
+}
