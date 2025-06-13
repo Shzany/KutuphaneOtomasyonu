@@ -1,0 +1,331 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
+using System.Windows.Forms;
+
+namespace KütüphaneOtomasyonu
+{
+    public static class VeriIsleyici
+    {
+        private static readonly string uyeDosyaYolu = "uyeler.json";
+        private static readonly string kitapDosyaYolu = "kitaplar.json";
+        private static readonly string backupFolder = "backups";
+
+        // Enhanced JsonSerializerOptions
+        private static readonly JsonSerializerOptions jsonOptions = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            PropertyNameCaseInsensitive = true,
+            DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
+            NumberHandling = System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        };
+
+        public static bool UyeEkle(Uye uye)
+        {
+            try
+            {
+                List<Uye> uyeler = UyeleriYukle();
+                uyeler.Add(uye);
+                string json = JsonSerializer.Serialize(uyeler, jsonOptions);
+                File.WriteAllText(uyeDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static List<Uye> UyeleriYukle()
+        {
+            try
+            {
+                if (!File.Exists(uyeDosyaYolu))
+                    return new List<Uye>();
+
+                string json = File.ReadAllText(uyeDosyaYolu, Encoding.UTF8);
+                if (string.IsNullOrWhiteSpace(json))
+                    return new List<Uye>();
+
+                var uyeler = JsonSerializer.Deserialize<List<Uye>>(json, jsonOptions);
+                return uyeler ?? new List<Uye>();
+            }
+            catch (JsonException ex)
+            {
+                MessageBox.Show($"JSON okuma hatası: {ex.Message}");
+                return new List<Uye>();
+            }
+            catch (Exception)
+            {
+                return new List<Uye>();
+            }
+        }
+
+        public static List<Kitap> KitaplariYukle()
+        {
+            try
+            {
+                if (!File.Exists(kitapDosyaYolu))
+                {
+                    File.WriteAllText(kitapDosyaYolu, "[]", Encoding.UTF8);
+                    return new List<Kitap>();
+                }
+
+                string json = File.ReadAllText(kitapDosyaYolu, Encoding.UTF8);
+                if (string.IsNullOrWhiteSpace(json))
+                {
+                    File.WriteAllText(kitapDosyaYolu, "[]", Encoding.UTF8);
+                    return new List<Kitap>();
+                }
+
+                // Log JSON content for debugging
+                LogJsonContent("kitaplar.json", json);
+
+                var kitaplar = JsonSerializer.Deserialize<List<Kitap>>(json, jsonOptions);
+                return kitaplar ?? new List<Kitap>();
+            }
+            catch (JsonException ex)
+            {
+                MessageBox.Show($"JSON okuma hatası: {ex.Message}\nDosya yedekleniyor ve yeni dosya oluşturuluyor.");
+                BackupAndResetFile(kitapDosyaYolu);
+                return new List<Kitap>();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Beklenmeyen hata: {ex.Message}");
+                return new List<Kitap>();
+            }
+        }
+
+        private static void LogJsonContent(string filename, string content)
+        {
+            try
+            {
+                string logPath = $"log_{filename}_{DateTime.Now:yyyyMMdd_HHmmss}.txt";
+                File.WriteAllText(logPath, content, Encoding.UTF8);
+            }
+            catch
+            {
+                // Logging failed, but we don't want to interrupt the main process
+            }
+        }
+
+        private static void BackupAndResetFile(string filePath)
+        {
+            try
+            {
+                // Create backup folder if it doesn't exist
+                if (!Directory.Exists(backupFolder))
+                {
+                    Directory.CreateDirectory(backupFolder);
+                }
+
+                // Create backup with timestamp
+                string backupPath = Path.Combine(backupFolder, 
+                    $"{Path.GetFileNameWithoutExtension(filePath)}_{DateTime.Now:yyyyMMdd_HHmmss}{Path.GetExtension(filePath)}");
+
+                if (File.Exists(filePath))
+                {
+                    File.Copy(filePath, backupPath, true);
+                    File.WriteAllText(filePath, "[]", Encoding.UTF8);
+                }
+            }
+            catch
+            {
+                // If backup fails, at least try to reset the file
+                try
+                {
+                    File.WriteAllText(filePath, "[]", Encoding.UTF8);
+                }
+                catch
+                {
+                    MessageBox.Show("Dosya sıfırlanamadı. Lütfen dosya izinlerini kontrol edin.");
+                }
+            }
+        }
+
+        public static bool UyeSil(string tcNo)
+        {
+            try
+            {
+                List<Uye> uyeler = UyeleriYukle();
+                var silinecekUye = uyeler.FirstOrDefault(u => u.TcNo == tcNo);
+                if (silinecekUye == null)
+                    return false;
+
+                uyeler.Remove(silinecekUye);
+                string json = JsonSerializer.Serialize(uyeler, jsonOptions);
+                File.WriteAllText(uyeDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static bool KitapEkle(Kitap kitap)
+        {
+            try
+            {
+                if (kitap == null || string.IsNullOrEmpty(kitap.ISBN))
+                {
+                    MessageBox.Show("Geçersiz kitap verisi!");
+                    return false;
+                }
+
+                List<Kitap> kitaplar = KitaplariYukle();
+                if (kitaplar.Any(k => k.ISBN == kitap.ISBN))
+                {
+                    MessageBox.Show("Bu ISBN numarası zaten kullanımda!");
+                    return false;
+                }
+
+                kitaplar.Add(kitap);
+                string json = JsonSerializer.Serialize(kitaplar, jsonOptions);
+                File.WriteAllText(kitapDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Kitap eklenirken hata oluştu: {ex.Message}");
+                return false;
+            }
+        }
+
+        public static bool KitapSil(string isbn)
+        {
+            try
+            {
+                List<Kitap> kitaplar = KitaplariYukle();
+                var silinecekKitap = kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+                if (silinecekKitap == null)
+                    return false;
+
+                kitaplar.Remove(silinecekKitap);
+                string json = JsonSerializer.Serialize(kitaplar, jsonOptions);
+                File.WriteAllText(kitapDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static Uye UyeBul(string tcNo)
+        {
+            var uyeler = UyeleriYukle();
+            return uyeler.FirstOrDefault(u => u.TcNo == tcNo);
+        }
+
+        public static Kitap KitapBul(string isbn, string ad = null)
+        {
+            var kitaplar = KitaplariYukle();
+            if (!string.IsNullOrEmpty(ad))
+                return kitaplar.FirstOrDefault(k => k.ISBN == isbn && k.Ad == ad);
+            return kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+        }
+
+        public static bool KitapIadeAl(string isbn, out bool gecikmeVarMi)
+        {
+            gecikmeVarMi = false;
+            try
+            {
+                var kitaplar = KitaplariYukle();
+                var kitap = kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+
+                if (kitap == null || !kitap.OduncDurumu())
+                    return false;
+
+                // Gecikme kontrolü
+                DateTime iadeTarihi;
+                if (DateTime.TryParse(kitap.IadeTarihi, out iadeTarihi))
+                {
+                    gecikmeVarMi = DateTime.Now > iadeTarihi;
+                }
+
+                // Ödünç bilgilerini temizle
+                kitap.OduncAlanTC = null;
+                kitap.OduncTarihi = null;
+                kitap.IadeTarihi = null;
+
+                string json = JsonSerializer.Serialize(kitaplar, jsonOptions);
+                File.WriteAllText(kitapDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static bool KitapGecikmismi(string isbn)
+        {
+            var kitap = KitapBul(isbn);
+            if (kitap == null || !kitap.OduncDurumu())
+                return false;
+
+            if (DateTime.TryParse(kitap.IadeTarihi, out DateTime iadeTarihi))
+            {
+                return DateTime.Now > iadeTarihi;
+            }
+            return false;
+        }
+
+        public static bool KitapOduncVer(string isbn, string tcNo)
+        {
+            try
+            {
+                var kitaplar = KitaplariYukle();
+                var kitap = kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+
+                if (kitap == null || kitap.OduncDurumu())
+                    return false;
+
+                // Set lending details
+                kitap.OduncAlanTC = tcNo;
+                kitap.OduncTarihi = DateTime.Now.ToString("dd.MM.yyyy");
+                kitap.IadeTarihi = DateTime.Now.AddDays(15).ToString("dd.MM.yyyy");
+
+                string json = JsonSerializer.Serialize(kitaplar, jsonOptions);
+                File.WriteAllText(kitapDosyaYolu, json, Encoding.UTF8);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static List<Kitap> KitapAra(string aramaMetni)
+        {
+            var kitaplar = KitaplariYukle();
+            if (string.IsNullOrWhiteSpace(aramaMetni))
+                return kitaplar;
+
+            return kitaplar.Where(k => 
+                k.ISBN.Contains(aramaMetni) || 
+                k.Ad.Contains(aramaMetni) || 
+                k.Yazar.Contains(aramaMetni) ||
+                k.Kategori.Contains(aramaMetni)
+            ).ToList();
+        }
+
+        public static List<Kitap> OduncVerilenKitaplar()
+        {
+            var kitaplar = KitaplariYukle();
+            return kitaplar.Where(k => k.OduncDurumu()).ToList();
+        }
+
+        public static List<Kitap> MevcutKitaplar()
+        {
+            var kitaplar = KitaplariYukle();
+            return kitaplar.Where(k => !k.OduncDurumu()).ToList();
+        }
+    }
+}

@@ -17,7 +17,7 @@ namespace KütüphaneOtomasyonu
         public UserControl3()
         {
             InitializeComponent();
-            // Find the parent form when control is loaded
+            // Find the parent form when control is loaded  
             this.Load += (s, e) =>
             {
                 parentForm = this.FindForm() as ÇalışanEkranı;
@@ -38,23 +38,30 @@ namespace KütüphaneOtomasyonu
         {
             string kitapAdi = textBox4.Text;
             string yazarAdı = textBox3.Text;
-s
-            // Use the existing form instance
+
+            // Use the existing form instance  
             if (parentForm != null)
             {
-                var bulunanKitaplar = VeriIsleyici.KitapBul(kitapAdi, yazarAdı);
-                parentForm.listView2.Items.Clear(); // Clear the items, not the whole ListView
+                // Fix for CS0039: Use the correct method to retrieve a list of books  
+                var bulunanKitaplar = VeriIsleyici.KitapAra(kitapAdi)
+                    .Where(k => string.IsNullOrEmpty(yazarAdı) || k.Yazar.Equals(yazarAdı, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
 
-                foreach (var kitap in bulunanKitaplar)
+                if (bulunanKitaplar != null)
                 {
-                    ListViewItem item = new ListViewItem(kitap.ISBN);
-                    item.SubItems.Add(kitap.Ad);
-                    item.SubItems.Add(kitap.Yazar);
-                    item.SubItems.Add(kitap.YayinTarihi);
-                    item.SubItems.Add(kitap.Kategori);
-                    item.SubItems.Add(kitap.YayinEvi);
-                    item.SubItems.Add(kitap.SayfaSayisi.ToString());
-                    parentForm.listView2.Items.Add(item);
+                    parentForm.listView2.Items.Clear(); // Clear the items, not the whole ListView  
+
+                    foreach (var kitap in bulunanKitaplar)
+                    {
+                        ListViewItem item = new ListViewItem(kitap.ISBN);
+                        item.SubItems.Add(kitap.Ad);
+                        item.SubItems.Add(kitap.Yazar);
+                        item.SubItems.Add(kitap.YayinTarihi);
+                        item.SubItems.Add(kitap.Kategori);
+                        item.SubItems.Add(kitap.YayinEvi);
+                        item.SubItems.Add(kitap.SayfaSayisi.ToString());
+                        parentForm.listView2.Items.Add(item);
+                    }
                 }
             }
         }

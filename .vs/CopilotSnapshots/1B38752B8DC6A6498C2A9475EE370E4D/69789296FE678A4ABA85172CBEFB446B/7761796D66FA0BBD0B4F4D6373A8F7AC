@@ -1,0 +1,75 @@
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Linq;
+using System;
+
+namespace KütüphaneOtomasyonu
+{
+    public static class VeriIsleyici
+    {
+        private static readonly string uyeDosyaYolu = "uyeler.json";
+        private static readonly string kitapDosyaYolu = "kitaplar.json";
+
+        public static bool UyeEkle(Uye uye)
+        {
+            try
+            {
+                List<Uye> uyeler = UyelerYukle();
+                uyeler.Add(uye);
+                string json = JsonSerializer.Serialize(uyeler, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(uyeDosyaYolu, json);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static bool KitapIadeAl(string isbn, out bool gecikmeVarMi)
+        {
+            gecikmeVarMi = false;
+            try
+            {
+                var kitaplar = KitaplariYukle();
+                var kitap = kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+                
+                if (kitap == null || !kitap.OduncDurumu())
+                    return false;
+
+                // Gecikme kontrolü
+                if (DateTime.TryParse(kitap.IadeTarihi, out DateTime iadeTarihi))
+                {
+                    gecikmeVarMi = DateTime.Now > iadeTarihi;
+                }
+
+                // Ödünç bilgilerini temizle
+                kitap.OduncAlanTC = null;
+                kitap.OduncTarihi = null;
+                kitap.IadeTarihi = null;
+
+                string json = JsonSerializer.Serialize(kitaplar, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(kitapDosyaYolu, json);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static bool KitapGecikmismi(string isbn)
+        {
+            var kitap = KitapBul(isbn);
+            if (kitap == null || !kitap.OduncDurumu())
+                return false;
+
+            if (DateTime.TryParse(kitap.IadeTarihi, out DateTime iadeTarihi))
+            {
+                return DateTime.Now > iadeTarihi;
+            }
+            return false;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+﻿[
+  {
+    "isbn": "",
+    "ad": "",
+    "yazar": "sdas",
+    "yayinEvi": "burak",
+    "sayfaSayisi": 123,
+    "kategori": "111222333444",
+    "yayinTarihi": "asd"
+  }
+]

@@ -1,0 +1,11 @@
+﻿[
+  {
+    "isbn": "asdsad",
+    "ad": "fghh",
+    "yazar": "fff",
+    "yayinEvi": "sadas",
+    "sayfaSayisi": 0,
+    "kategori": "Edebiyat \u0026 Roman",
+    "yayinTarihi": "10 Haziran 2025 Sal\u0131"
+  }
+]

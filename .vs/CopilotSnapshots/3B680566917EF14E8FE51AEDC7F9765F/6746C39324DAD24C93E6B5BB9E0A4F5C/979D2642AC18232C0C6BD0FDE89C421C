@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
+namespace KütüphaneOtomasyonu
+{
+    public class Kitap : IEnumerable<Kitap>
+    {
+        [JsonPropertyName("isbn")]
+        public string ISBN { get; set; }
+
+        [JsonPropertyName("ad")]
+        public string Ad { get; set; }
+
+        [JsonPropertyName("yazar")]
+        public string Yazar { get; set; }
+
+        [JsonPropertyName("yayinEvi")]
+        public string YayinEvi { get; set; }
+
+        [JsonPropertyName("sayfaSayisi")]
+        public int SayfaSayisi { get; set; }
+
+        [JsonPropertyName("kategori")]
+        public string Kategori { get; set; }
+
+        [JsonPropertyName("yayinTarihi")]
+        public string YayinTarihi { get; set; }
+
+        [JsonPropertyName("oduncAlanTC")]
+        public string OduncAlanTC { get; set; }
+
+        [JsonPropertyName("oduncTarihi")]
+        public string OduncTarihi { get; set; }
+
+        [JsonPropertyName("iadeTarihi")]
+        public string IadeTarihi { get; set; }
+
+        // Default constructor for deserialization
+        public Kitap()
+        {
+            // Initialize required properties with default values
+            ISBN = string.Empty;
+            Ad = string.Empty;
+            Yazar = string.Empty;
+            YayinEvi = string.Empty;
+            Kategori = string.Empty;
+            YayinTarihi = string.Empty;
+        }
+
+        public bool OduncDurumu()
+        {
+            return !string.IsNullOrEmpty(OduncAlanTC);
+        }
+
+        public IEnumerator<Kitap> GetEnumerator()
+        {
+            yield return this;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+    }
+}

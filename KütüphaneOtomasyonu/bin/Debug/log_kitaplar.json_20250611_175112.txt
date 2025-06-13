@@ -1,0 +1,20 @@
+﻿[
+  {
+    "isbn": "",
+    "ad": "",
+    "yazar": "sdas",
+    "yayinEvi": "burak",
+    "sayfaSayisi": 123,
+    "kategori": "111222333444",
+    "yayinTarihi": "asd"
+  },
+  {
+    "isbn": "111222333444",
+    "ad": "Sava\u015F ve Bar\u0131\u015F",
+    "yazar": "Dostoyevski",
+    "yayinEvi": "Burak",
+    "sayfaSayisi": 516,
+    "kategori": "Edebiyat \u0026 Roman",
+    "yayinTarihi": "11 Haziran 1995 Pazar"
+  }
+]

@@ -1,0 +1,13 @@
+﻿namespace KütüphaneOtomasyonu
+{
+    public class Kitap
+    {
+        public string ISBN { get; set; }
+        public string Ad { get; set; }
+        public string Yazar { get; set; }
+        public string YayinEvi { get; set; }
+        public int SayfaSayisi { get; set; }
+        public string Kategori { get; set; }
+        public string YayinTarihi { get; set; } // Ödünç verildi mi?
+    }
+}

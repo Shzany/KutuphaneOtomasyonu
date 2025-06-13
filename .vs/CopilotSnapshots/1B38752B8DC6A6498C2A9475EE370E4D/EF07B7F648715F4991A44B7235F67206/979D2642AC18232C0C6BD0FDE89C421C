@@ -1,0 +1,23 @@
+﻿namespace KütüphaneOtomasyonu
+{
+    public class Kitap
+    {
+        public string ISBN { get; set; }
+        public string Ad { get; set; }
+        public string Yazar { get; set; }
+        public string YayinEvi { get; set; }
+        public int SayfaSayisi { get; set; }
+        public string Kategori { get; set; }
+        public string YayinTarihi { get; set; }
+        // Ödünç işlemleri için yeni özellikler
+        public string OduncAlanTC { get; set; }
+        public DateTime? OduncTarihi { get; set; }
+        public DateTime? IadeTarihi { get; set; }
+
+        public bool OduncDurumu()
+        {
+            return OduncAlanTC != null && OduncTarihi.HasValue && 
+                   DateTime.Now < IadeTarihi.Value;
+        }
+    }
+}

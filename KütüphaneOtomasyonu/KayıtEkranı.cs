@@ -19,6 +19,14 @@ namespace KütüphaneOtomasyonu
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // TC ve diğer alanların boş olmadığını kontrol et
+            if (string.IsNullOrWhiteSpace(tc.Text))
+            {
+                MessageBox.Show("TC No alanı boş bırakılamaz!");
+                return;
+            }
+
+            // Yeni üye oluştur
             Uye yeniUye = new Uye
             {
                 Ad = ad.Text,
@@ -27,11 +35,21 @@ namespace KütüphaneOtomasyonu
                 Cinsiyet = cinsiyet.Text,
                 Sifre = sifre.Text
             };
-            this.Hide(); // Kayıt ekranını gizle
-            VeriIsleyici.UyeEkle(yeniUye);
-            MessageBox.Show("Üye başarıyla kaydedildi.");
-            AnaEkran anaEkran = new AnaEkran();
-            anaEkran.Show();
+
+            // Üyeyi kaydet
+            if (VeriIsleyici.UyeEkle(yeniUye))
+            {
+                MessageBox.Show("Üyelik başarıyla oluşturuldu.");
+                this.Hide(); // Kayıt ekranını gizle
+
+                // Ana ekrana dön
+                AnaEkran anaEkran = new AnaEkran();
+                anaEkran.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bu TC Kimlik No ile daha önce kayıt yapılmış! Lütfen kontrol ediniz.");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

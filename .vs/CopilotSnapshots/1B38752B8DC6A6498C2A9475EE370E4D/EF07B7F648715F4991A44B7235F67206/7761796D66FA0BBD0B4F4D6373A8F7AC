@@ -1,0 +1,102 @@
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Linq;
+using System;
+
+namespace KütüphaneOtomasyonu
+{
+    public static class VeriIsleyici
+    {
+        private static readonly string uyeDosyaYolu = "uyeler.json";
+        private static readonly string kitapDosyaYolu = "kitaplar.json";
+
+        public static void UyeEkle(Uye uye)
+        {
+            List<Uye> uyeler = UyeleriYukle();
+            uyeler.Add(uye);
+            string json = JsonSerializer.Serialize(uyeler, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(uyeDosyaYolu, json);
+        }
+
+        public static List<Uye> UyeleriYukle()
+        {
+            if (!File.Exists(uyeDosyaYolu))
+                return new List<Uye>();
+
+            string json = File.ReadAllText(uyeDosyaYolu);
+            return JsonSerializer.Deserialize<List<Uye>>(json) ?? new List<Uye>();
+        }
+
+        public static void KitapEkle(Kitap kitap)
+        {
+            List<Kitap> kitaplar = KitaplariYukle();
+            kitaplar.Add(kitap);
+            string json = JsonSerializer.Serialize(kitaplar, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(kitapDosyaYolu, json);
+        }
+
+        public static List<Kitap> KitaplariYukle()
+        {
+            if (!File.Exists(kitapDosyaYolu))
+                return new List<Kitap>();
+
+            string json = File.ReadAllText(kitapDosyaYolu);
+            return JsonSerializer.Deserialize<List<Kitap>>(json) ?? new List<Kitap>();
+        }
+
+        public static void KitapSil(string isbn)
+        {
+            List<Kitap> kitaplar = KitaplariYukle();
+            kitaplar.RemoveAll(k => k.ISBN == isbn);
+            string json = JsonSerializer.Serialize(kitaplar, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(kitapDosyaYolu, json);
+        }
+
+        public static void UyeSil(string tcNo)
+        {
+            List<Uye> uyeler = UyeleriYukle();
+            uyeler.RemoveAll(u => u.TcNo == tcNo);
+            string json = JsonSerializer.Serialize(uyeler, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(uyeDosyaYolu, json);
+        }
+
+        public static Kitap KitapBul(string isbn)
+        {
+            List<Kitap> kitaplar = KitaplariYukle();
+            return kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+        }
+
+        public static List<Kitap> KitapBul(string ad, string yazar)
+        {
+            List<Kitap> kitaplar = KitaplariYukle();
+            return kitaplar.Where(k => 
+                (string.IsNullOrEmpty(ad) || k.Ad.Contains(ad)) && 
+                (string.IsNullOrEmpty(yazar) || k.Yazar.Contains(yazar))
+            ).ToList();
+        }
+
+        public static bool KitapOduncVer(string isbn, string tcNo)
+        {
+            var kitaplar = KitaplariYukle();
+            var kitap = kitaplar.FirstOrDefault(k => k.ISBN == isbn);
+            
+            if (kitap == null || kitap.OduncDurumu())
+                return false;
+
+            kitap.OduncAlanTC = tcNo;
+            kitap.OduncTarihi = DateTime.Now;
+            kitap.IadeTarihi = DateTime.Now.AddDays(15);
+
+            string json = JsonSerializer.Serialize(kitaplar, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(kitapDosyaYolu, json);
+            return true;
+        }
+
+        public static Uye UyeBul(string tcNo)
+        {
+            var uyeler = UyeleriYukle();
+            return uyeler.FirstOrDefault(u => u.TcNo == tcNo);
+        }
+    }
+}

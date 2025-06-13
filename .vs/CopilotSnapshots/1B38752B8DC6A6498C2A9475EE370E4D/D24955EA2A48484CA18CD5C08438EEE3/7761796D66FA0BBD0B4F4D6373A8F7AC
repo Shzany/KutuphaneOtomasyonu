@@ -1,0 +1,18 @@
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Linq;
+using System;
+
+namespace KütüphaneOtomasyonu
+{
+    public static class VeriIsleyici
+    {
+        private static readonly string uyeDosyaYolu = "uyeler.json";
+        private static readonly string kitapDosyaYolu = "kitaplar.json";
+
+        public static bool UyeEkle(Uye uye)
+        {
+            try
+            {
+                List<Uye> uyeler = Uy

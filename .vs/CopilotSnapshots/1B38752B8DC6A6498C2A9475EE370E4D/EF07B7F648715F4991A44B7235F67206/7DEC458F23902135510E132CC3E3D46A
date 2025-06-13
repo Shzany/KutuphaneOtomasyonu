@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace KütüphaneOtomasyonu
+{
+    public partial class UserControl4: UserControl
+    {
+        public UserControl4()
+        {
+            InitializeComponent();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string tcNo = textBox1.Text.Trim();
+            string isbn = textBox2.Text.Trim();
+
+            if (string.IsNullOrEmpty(tcNo) || string.IsNullOrEmpty(isbn))
+            {
+                MessageBox.Show("TC No ve ISBN alanları boş bırakılamaz!");
+                return;
+            }
+
+            var uye = VeriIsleyici.UyeBul(tcNo);
+            if (uye == null)
+            {
+                MessageBox.Show("Belirtilen TC No'ya sahip üye bulunamadı!");
+                return;
+            }
+
+            var kitap = VeriIsleyici.KitapBul(isbn);
+            if (kitap == null)
+            {
+                MessageBox.Show("Belirtilen ISBN'ye sahip kitap bulunamadı!");
+                return;
+            }
+
+            if (kitap.OduncDurumu())
+            {
+                MessageBox.Show("Bu kitap şu anda başka bir üyede ödünç durumunda!");
+                return;
+            }
+
+            if (VeriIsleyici.KitapOduncVer(isbn, tcNo))
+            {
+                MessageBox.Show("Kitap başarıyla ödünç verildi. İade tarihi: " + 
+                               DateTime.Now.AddDays(15).ToShortDateString());
+            }
+            else
+            {
+                MessageBox.Show("Kitap ödünç verme işlemi başarısız oldu!");
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace KütüphaneOtomasyonu
+{
+    public class Kitap : IEnumerable<Kitap>
+    {
+        public string ISBN { get; set; }
+        public string Ad { get; set; }
+        public string Yazar { get; set; }
+        public string YayinEvi { get; set; }
+        public int SayfaSayisi { get; set; }
+        public string Kategori { get; set; }
+        public string YayinTarihi { get; set; }
+        // Ödünç işlemleri için yeni özellikler
+        public string OduncAlanTC { get; set; }
+        public string OduncTarihi { get; set; }
+        public string IadeTarihi { get; set; }
+
+        public bool OduncDurumu()
+        {
+            // If we have an OduncAlanTC, the book is currently borrowed
+            return !string.IsNullOrEmpty(OduncAlanTC);
+        }
+
+        public IEnumerator<Kitap> GetEnumerator()
+        {
+            yield return this;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+    }
+}

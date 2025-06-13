@@ -1,0 +1,32 @@
+﻿using System;
+
+namespace KütüphaneOtomasyonu
+{
+    public class Kitap
+    {
+        public string ISBN { get; set; }
+        public string Ad { get; set; }
+        public string Yazar { get; set; }
+        public string YayinEvi { get; set; }
+        public int SayfaSayisi { get; set; }
+        public string Kategori { get; set; }
+        public string YayinTarihi { get; set; }
+        // Ödünç işlemleri için yeni özellikler
+        public string OduncAlanTC { get; set; }
+        public string OduncTarihi { get; set; }
+        public string IadeTarihi { get; set; }
+
+        public bool OduncDurumu()
+        {
+            if (string.IsNullOrEmpty(OduncAlanTC) || string.IsNullOrEmpty(OduncTarihi) || string.IsNullOrEmpty(IadeTarihi))
+                return false;
+
+            DateTime iadeTarihi;
+            if (DateTime.TryParse(IadeTarihi, out iadeTarihi))
+            {
+                return DateTime.Now < iadeTarihi;
+            }
+            return false;
+        }
+    }
+}

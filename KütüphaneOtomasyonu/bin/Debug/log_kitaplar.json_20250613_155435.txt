@@ -1,0 +1,20 @@
+﻿[
+  {
+    "isbn": "12312312",
+    "ad": "k\u00FC\u00E7\u00FCk prens",
+    "yazar": "asd",
+    "yayinEvi": "asd",
+    "sayfaSayisi": 123,
+    "kategori": "Edebiyat \u0026 Roman",
+    "yayinTarihi": "12 Haziran 2025 Per\u015Fembe"
+  },
+  {
+    "isbn": "1234",
+    "ad": "ghfghf",
+    "yazar": "fyghfghf",
+    "yayinEvi": "asd",
+    "sayfaSayisi": 123,
+    "kategori": "E\u011Fitim \u0026 Ki\u015Fisel Geli\u015Fim",
+    "yayinTarihi": "13 Haziran 2025 Cuma"
+  }
+]
